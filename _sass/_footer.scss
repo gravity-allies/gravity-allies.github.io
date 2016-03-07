@@ -1,0 +1,45 @@
+// _footer.scss
+
+$footer-height: 100px;
+$footer-padding: 20px;
+
+html {
+		position: relative;
+		min-height: 100%;
+}
+
+body {
+		margin-bottom: $footer-height;
+}
+
+footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: $footer-height;
+		font-size: small;
+		background-color: #4e5d6c;
+
+		&, a {
+				color: #ccc;
+		}
+
+		a:hover {
+				text-decoration: underline;
+		}
+
+		> .container {
+				margin-top: 20px;
+				margin-bottom: 20px;
+		}
+
+		p, a {
+				padding: 2px 0px;
+				margin: 0;
+				display: block;
+		}
+
+		a:hover {
+				color: white;
+		}
+}
