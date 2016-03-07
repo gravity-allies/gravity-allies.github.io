@@ -1,7 +1,21 @@
-.page-header {
-		padding-top: 20px;
-		border-bottom: none;
-		h1 {
-				font-size: 60px;
+#banner {
+		background: 'black';
+		background: {
+				image: url("/~duncan/lvcallies.github.io/img/sxs.jpg");
+				position: center;
+				background-repeat: no-repeat;
+		}
+		border-bottom: 1px solid #333;
+		margin-bottom: 20px;
+		.page-header {
+				padding-top: 20px;
+				color: white;
+				border-bottom: none;
+				h1 {
+						font-size: 60px;
+				}
+				p {
+						font-weight: bold;
+				}
 		}
 }
