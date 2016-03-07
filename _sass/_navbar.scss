@@ -1,0 +1,10 @@
+.navbar-default {
+		.navbar-brand {
+				&:active,
+				&:focus,
+				&:hover {
+						color: #ffffff;
+						background-color: #090909;
+				}
+		}
+}
