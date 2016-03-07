@@ -1,6 +1,5 @@
 sass:
   style: compressed
 
-url: https://lvcallies.org
-enforce_ssl: lvcallies.org
-production_url: https://lvcallies.org
+url: http://lvcallies.org
+production_url: http://lvcallies.org
