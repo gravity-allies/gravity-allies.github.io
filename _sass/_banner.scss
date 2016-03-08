@@ -1,9 +1,9 @@
 #banner {
-		background: 'black';
 		background: {
+				color: black;
 				image: url("/img/sxs.jpg");
 				position: center;
-				background-repeat: no-repeat;
+				repeat: no-repeat;
 		}
 		border-bottom: 1px solid #333;
 		margin-bottom: 20px;
