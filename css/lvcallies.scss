@@ -2,8 +2,12 @@
 ---
 // lvcallies.scss - styling for lvcallies.org
 
+// layout elements
 @import "navbar";
 @import "banner";
 @import "content";
-@import "members";
 @import "footer";
+
+// special elements
+@import "button";
+@import "members";
