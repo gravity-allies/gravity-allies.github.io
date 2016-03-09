@@ -6,3 +6,20 @@ p {
 				font-size: 18px;
 		}
 }
+
+.doclink {
+		font-size: 18px;
+		.docurl {
+				color: red;
+				display: inline-block;
+				max-width: 200px;
+				@media (min-width: 980px) {
+						max-width: 321px;
+				}
+				padding-right: 10px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				vertical-align: top;
+		}
+}
