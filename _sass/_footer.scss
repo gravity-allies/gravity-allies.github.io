@@ -1,7 +1,9 @@
 // _footer.scss
 
-$footer-height: 120px;
-$footer-height-desktop: 100px;
+$footer-height-xs: 182px;
+$footer-height-sm: 162px;
+$footer-height-md: 122px;
+$footer-height-lg: 100px;
 $footer-padding: 40px;
 
 html {
@@ -10,9 +12,15 @@ html {
 }
 
 body {
-		margin-bottom: $footer-height + $footer-padding;
-		@media (min-width: 992px) {
-				margin-bottom: $footer-height-desktop + $footer-padding;
+		margin-bottom: $footer-height-xs + $footer-padding;
+		@media (min-width: 481px) {
+				margin-bottom: $footer-height-sm + $footer-padding;
+		}
+		@media (min-width: 481px) {
+				margin-bottom: $footer-height-md + $footer-padding;
+		}
+		@media (min-width: 980px) {
+				margin-bottom: $footer-height-lg + $footer-padding;
 		}
 }
 
@@ -20,11 +28,17 @@ footer {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		//height: $footer-height;
 		font-size: 16px;
 		background-color: #333;
-		@media (min-width: 992px) {
-				//height: $footer-height-desktop;
+		height: $footer-height-xs;
+		@media (min-width: 481px) {
+				height: $footer-height-sm;
+		}
+		@media (min-width: 481px) {
+				height: $footer-height-md;
+		}
+		@media (min-width: 980px) {
+				height: $footer-height-lg;
 		}
 
 		&, a {
@@ -71,7 +85,7 @@ footer {
 				list-style: none;
 				padding-top: 10px;
 				margin-bottom: 0px;
-				@media (min-width: 992px) {
+				@media (min-width: 980px) {
 						padding-top: 0px;
 						text-align: right;
 				}
@@ -80,7 +94,7 @@ footer {
 				}
 				li {
 						display: inline;
-						@media (min-width: 992px) {
+						@media (min-width: 980px) {
 								display: block;
 								padding-bottom: 5px;
 						}
